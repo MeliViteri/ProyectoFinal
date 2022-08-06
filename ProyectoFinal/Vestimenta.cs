@@ -18,6 +18,22 @@ namespace ProyectoFinal
         public string TipodeTela { set; get; }
         public int PreciodeVestimenta { set; get; }
 
+        public Vestimenta()
+        {
+        }
+
+        public Vestimenta(string nombre, string apellido, string cedula, string tipodeVestimenta, 
+            string colordeVestimenta, string marcadeVestimenta, string tipodeTela, int preciodeVestimenta)
+        {
+            Nombre = nombre;
+            Apellido = apellido;
+            Cedula = cedula;
+            TipodeVestimenta = tipodeVestimenta;
+            ColordeVestimenta = colordeVestimenta;
+            MarcadeVestimenta = marcadeVestimenta;
+            TipodeTela = tipodeTela;
+            PreciodeVestimenta = preciodeVestimenta;
+        }
         
     }
 }
