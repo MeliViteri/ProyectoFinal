@@ -18,11 +18,12 @@ namespace ProyectoFinal
         public string TipodeTela { set; get; }
         public int PreciodeVestimenta { set; get; }
 
-        //constructores
+        //constructor que no recibe parámetros
         public Vestimenta()
         {
         }
 
+        //constructor que recibe parámetros
         public Vestimenta(string nombre, string apellido, string cedula, string tipodeVestimenta, 
             string colordeVestimenta, string marcadeVestimenta, string tipodeTela, int preciodeVestimenta)
         {
