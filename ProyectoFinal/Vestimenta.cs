@@ -18,6 +18,7 @@ namespace ProyectoFinal
         public string TipodeTela { set; get; }
         public int PreciodeVestimenta { set; get; }
 
+        //constructores
         public Vestimenta()
         {
         }
