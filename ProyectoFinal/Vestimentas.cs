@@ -12,7 +12,7 @@ namespace ProyectoFinal
             Vestimentas1 = new List<Vestimenta>();
         }
 
-        //Funciones
+        //Funciones para el programa
 
         //Listamos los datos
         public void Agregar(Vestimenta vestimentas)
