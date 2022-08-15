@@ -11,7 +11,9 @@ namespace ProyectoFinal
         {
             Vestimentas1 = new List<Vestimenta>();
         }
-        
+
+        //Funciones
+
         //Listamos los datos
         public void Agregar(Vestimenta vestimentas)
         {
